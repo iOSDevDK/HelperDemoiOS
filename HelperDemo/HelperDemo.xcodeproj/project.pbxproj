@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D28880D1F01F895000991C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28880C1F01F895000991C1 /* AppDelegate.swift */; };
-		3D28880F1F01F895000991C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D28880E1F01F895000991C1 /* ViewController.swift */; };
 		3D2888121F01F895000991C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2888101F01F895000991C1 /* Main.storyboard */; };
 		3D2888151F01F895000991C1 /* HelperDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D2888131F01F895000991C1 /* HelperDemo.xcdatamodeld */; };
 		3D2888171F01F895000991C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2888161F01F895000991C1 /* Assets.xcassets */; };
 		3D28881A1F01F895000991C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2888181F01F895000991C1 /* LaunchScreen.storyboard */; };
+		3DCFC3331F01FFD7008B8D13 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3231F01FFD7008B8D13 /* AppConstant.swift */; };
+		3DCFC3341F01FFD7008B8D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3241F01FFD7008B8D13 /* AppDelegate.swift */; };
+		3DCFC3351F01FFD7008B8D13 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3271F01FFD7008B8D13 /* CartVC.swift */; };
+		3DCFC3361F01FFD7008B8D13 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3281F01FFD7008B8D13 /* LoginVC.swift */; };
+		3DCFC3371F01FFD7008B8D13 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3291F01FFD7008B8D13 /* ProductsVC.swift */; };
+		3DCFC3381F01FFD7008B8D13 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC32A1F01FFD7008B8D13 /* RegistrationVC.swift */; };
+		3DCFC3391F01FFD7008B8D13 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC32B1F01FFD7008B8D13 /* RootVC.swift */; };
+		3DCFC33A1F01FFD7008B8D13 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC32D1F01FFD7008B8D13 /* Device.swift */; };
+		3DCFC33B1F01FFD7008B8D13 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC32E1F01FFD7008B8D13 /* Validation.swift */; };
+		3DCFC33C1F01FFD7008B8D13 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC32F1F01FFD7008B8D13 /* WebService.swift */; };
+		3DCFC33D1F01FFD7008B8D13 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3311F01FFD7008B8D13 /* CartCell.swift */; };
+		3DCFC33E1F01FFD7008B8D13 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3321F01FFD7008B8D13 /* ProductCell.swift */; };
+		3DCFC3451F0206C7008B8D13 /* FileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3401F0206C7008B8D13 /* FileUtility.m */; };
+		3DCFC3461F0206C8008B8D13 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3441F0206C7008B8D13 /* WebService.m */; };
+		3DCFC3481F0206DE008B8D13 /* CardsListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFC3471F0206DE008B8D13 /* CardsListingVC.swift */; };
 		6F2158720EF67D33546A0BF5 /* Pods_HelperDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32305998541E0D08B67342FD /* Pods_HelperDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,13 +33,30 @@
 		068C3EFADC5582579F61CA53 /* Pods-HelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelperDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelperDemo/Pods-HelperDemo.release.xcconfig"; sourceTree = "<group>"; };
 		32305998541E0D08B67342FD /* Pods_HelperDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelperDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2888091F01F895000991C1 /* HelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D28880C1F01F895000991C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D28880E1F01F895000991C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D2888111F01F895000991C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D2888141F01F895000991C1 /* HelperDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelperDemo.xcdatamodel; sourceTree = "<group>"; };
 		3D2888161F01F895000991C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2888191F01F895000991C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D28881B1F01F895000991C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCFC3231F01FFD7008B8D13 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		3DCFC3241F01FFD7008B8D13 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCFC3251F01FFD7008B8D13 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		3DCFC3271F01FFD7008B8D13 /* CartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		3DCFC3281F01FFD7008B8D13 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3DCFC3291F01FFD7008B8D13 /* ProductsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		3DCFC32A1F01FFD7008B8D13 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		3DCFC32B1F01FFD7008B8D13 /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		3DCFC32D1F01FFD7008B8D13 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		3DCFC32E1F01FFD7008B8D13 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		3DCFC32F1F01FFD7008B8D13 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3DCFC3311F01FFD7008B8D13 /* CartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		3DCFC3321F01FFD7008B8D13 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		3DCFC33F1F0206C7008B8D13 /* FileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtility.h; sourceTree = "<group>"; };
+		3DCFC3401F0206C7008B8D13 /* FileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtility.m; sourceTree = "<group>"; };
+		3DCFC3411F0206C7008B8D13 /* HelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperClass.h; sourceTree = "<group>"; };
+		3DCFC3431F0206C7008B8D13 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		3DCFC3441F0206C7008B8D13 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		3DCFC3471F0206DE008B8D13 /* CardsListingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsListingVC.swift; sourceTree = "<group>"; };
 		DBDB82DB6F7CBE7C6724BEB0 /* Pods-HelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelperDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelperDemo/Pods-HelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,8 +102,11 @@
 		3D28880B1F01F895000991C1 /* HelperDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3D28880C1F01F895000991C1 /* AppDelegate.swift */,
-				3D28880E1F01F895000991C1 /* ViewController.swift */,
+				3DCFC3221F01FFD7008B8D13 /* App */,
+				3DCFC3251F01FFD7008B8D13 /* BridgingHeader.h */,
+				3DCFC3261F01FFD7008B8D13 /* Controller */,
+				3DCFC32C1F01FFD7008B8D13 /* Model */,
+				3DCFC3301F01FFD7008B8D13 /* View */,
 				3D2888101F01F895000991C1 /* Main.storyboard */,
 				3D2888161F01F895000991C1 /* Assets.xcassets */,
 				3D2888181F01F895000991C1 /* LaunchScreen.storyboard */,
@@ -81,6 +114,60 @@
 				3D2888131F01F895000991C1 /* HelperDemo.xcdatamodeld */,
 			);
 			path = HelperDemo;
+			sourceTree = "<group>";
+		};
+		3DCFC3221F01FFD7008B8D13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3DCFC3231F01FFD7008B8D13 /* AppConstant.swift */,
+				3DCFC3241F01FFD7008B8D13 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3DCFC3261F01FFD7008B8D13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DCFC3271F01FFD7008B8D13 /* CartVC.swift */,
+				3DCFC3471F0206DE008B8D13 /* CardsListingVC.swift */,
+				3DCFC3281F01FFD7008B8D13 /* LoginVC.swift */,
+				3DCFC3291F01FFD7008B8D13 /* ProductsVC.swift */,
+				3DCFC32A1F01FFD7008B8D13 /* RegistrationVC.swift */,
+				3DCFC32B1F01FFD7008B8D13 /* RootVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DCFC32C1F01FFD7008B8D13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DCFC33F1F0206C7008B8D13 /* FileUtility.h */,
+				3DCFC3401F0206C7008B8D13 /* FileUtility.m */,
+				3DCFC3411F0206C7008B8D13 /* HelperClass.h */,
+				3DCFC3421F0206C7008B8D13 /* WS */,
+				3DCFC32D1F01FFD7008B8D13 /* Device.swift */,
+				3DCFC32E1F01FFD7008B8D13 /* Validation.swift */,
+				3DCFC32F1F01FFD7008B8D13 /* WebService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DCFC3301F01FFD7008B8D13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DCFC3311F01FFD7008B8D13 /* CartCell.swift */,
+				3DCFC3321F01FFD7008B8D13 /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DCFC3421F0206C7008B8D13 /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				3DCFC3431F0206C7008B8D13 /* WebService.h */,
+				3DCFC3441F0206C7008B8D13 /* WebService.m */,
+			);
+			path = WS;
 			sourceTree = "<group>";
 		};
 		CCD727AD810B5F5ED75A04D9 /* Frameworks */ = {
@@ -127,6 +214,7 @@
 					3D2888081F01F895000991C1 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7K4QKEDE9V;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -215,9 +303,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D28880F1F01F895000991C1 /* ViewController.swift in Sources */,
-				3D28880D1F01F895000991C1 /* AppDelegate.swift in Sources */,
+				3DCFC33C1F01FFD7008B8D13 /* WebService.swift in Sources */,
+				3DCFC3341F01FFD7008B8D13 /* AppDelegate.swift in Sources */,
 				3D2888151F01F895000991C1 /* HelperDemo.xcdatamodeld in Sources */,
+				3DCFC3371F01FFD7008B8D13 /* ProductsVC.swift in Sources */,
+				3DCFC33E1F01FFD7008B8D13 /* ProductCell.swift in Sources */,
+				3DCFC33A1F01FFD7008B8D13 /* Device.swift in Sources */,
+				3DCFC3451F0206C7008B8D13 /* FileUtility.m in Sources */,
+				3DCFC3351F01FFD7008B8D13 /* CartVC.swift in Sources */,
+				3DCFC3391F01FFD7008B8D13 /* RootVC.swift in Sources */,
+				3DCFC33D1F01FFD7008B8D13 /* CartCell.swift in Sources */,
+				3DCFC3331F01FFD7008B8D13 /* AppConstant.swift in Sources */,
+				3DCFC3381F01FFD7008B8D13 /* RegistrationVC.swift in Sources */,
+				3DCFC3461F0206C8008B8D13 /* WebService.m in Sources */,
+				3DCFC33B1F01FFD7008B8D13 /* Validation.swift in Sources */,
+				3DCFC3361F01FFD7008B8D13 /* LoginVC.swift in Sources */,
+				3DCFC3481F0206DE008B8D13 /* CardsListingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,11 +442,15 @@
 			baseConfigurationReference = DBDB82DB6F7CBE7C6724BEB0 /* Pods-HelperDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7K4QKEDE9V;
 				INFOPLIST_FILE = HelperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vyas.HelperDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HelperDemo/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -355,11 +460,14 @@
 			baseConfigurationReference = 068C3EFADC5582579F61CA53 /* Pods-HelperDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7K4QKEDE9V;
 				INFOPLIST_FILE = HelperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vyas.HelperDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HelperDemo/BridgingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -383,6 +491,7 @@
 				3D2888201F01F895000991C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
