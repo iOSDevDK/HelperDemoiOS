@@ -5,7 +5,6 @@
 
 #import "WebService.h"
 //#import "AFHTTPRequestOperationManager.h"
-#import "UAProgressView.h"
 
 static WebService *sharedWS;
 
